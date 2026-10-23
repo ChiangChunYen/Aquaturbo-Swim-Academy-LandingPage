@@ -16,9 +16,9 @@ export const en = {
   nav: {
     brand: "Aquaturbo",
     routes: [
-      { href: "#about", label: "About Us" },
+      { href: "#hero", label: "About Us" },
       { href: "#program", label: "Program" },
-      { href: "#team", label: "Team" },
+      { href: "#services", label: "Teaching Advantages" },
       { href: "#campus", label: "Campus" },
       { href: "#contact", label: "Contact" },
     ],

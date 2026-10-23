@@ -7,18 +7,18 @@ export const CampusSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="campus" className="w-full py-24 sm:py-32">
-      <div className="container">
+    <section id="campus" className="w-full py-16 sm:py-24">
+      <div className="container max-w-6xl text-left">
         {/* {t.campus.eyebrow ? (
           <h2 className="mb-2 text-center text-lg tracking-wider text-primary">
             {t.campus.eyebrow}
           </h2>
         ) : null} */}
-        <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
+        <h2 className="mb-8 text-2xl font-bold tracking-tight sm:mb-10 sm:text-xl">
           {t.campus.title}
         </h2>
 
-        <div className="grid gap-12 md:grid-cols-2 lg:gap-8">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-6">
           {t.campus.items.map((item) => (
             <article
               key={item.title}
@@ -33,7 +33,7 @@ export const CampusSection = () => {
                   className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
                 />
               </div>
-              <h3 className="mb-2 text-2xl font-semibold">{item.title}</h3>
+              <h3 className="mb-2 text-xl font-semibold">{item.title}</h3>
               {item.description ? (
                 <p className="leading-relaxed text-muted-foreground">
                   {item.description}
