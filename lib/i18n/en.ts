@@ -31,9 +31,9 @@ export const en = {
     titleAccent: "",
     titleAfter: "",
     subtitle:
-      "Aquaturbo Swim Academy was founded in Vancouver in 2023 by Coach Luke Huang. Guided by a commitment to professional, efficient, safe, and enjoyable instruction, we help students develop their swimming skills and have successfully prepared many swimmers to join local competitive swim clubs.\n\nThrough quality instruction and a strong reputation, Aquaturbo expanded to a second location in Richmond in 2026.",
+      "Aquaturbo Swim Academy was founded by Coach Luke Huang in Vancouver in 2023. We make swimming lessons safe, fun, and easy to follow, helping students build confidence and learn proper swimming skills. Many of our students have gone on to join local competitive swim clubs.\n\nWith quality teaching and support from our families, we opened our second location in Richmond in 2026.",
     getStarted: "Join Now",
-    contact: "Contact Us",
+    contact: "Enroll Now",
     imageAlt: "dashboard",
   },
   aboutHero: {
@@ -46,9 +46,9 @@ export const en = {
   },
   benefits: {
     eyebrow: "Professional Training",
-    title: "Our Teaching System",
+    title: "Teaching System",
     description:
-      "The Aquaturbo Teaching System (ATS) was developed by Head Coach Luke Huang, drawing on years of competitive swimming and extensive teaching experience. With safety, efficiency, and a systematic approach at its core, ATS helps students develop swimming skills step by step.\n\nATS is implemented across all locations to ensure a consistent, high-quality learning experience.",
+      "Head Coach Luke Huang developed the Aquaturbo Teaching System (ATS) using his years of experience in competitive swimming and teaching.\n\nATS gives swimmers a clear, step-by-step way to learn, with a focus on safety, proper technique, and steady progress.\n\nWe use ATS at all our locations to provide the same high standard of teaching.",
     items: [
       {
         icon: "Blocks",
@@ -87,56 +87,56 @@ export const en = {
         image: "/child_class.png",
         title: "Kids Swimming Lessons",
         description:
-          "Build confidence in the water and develop swimming skills step by step in a safe, fun environment.",
+          "Build confidence in the water and learn proper swimming skills step by step in a safe, fun setting.",
       },
       {
         icon: "BadgeCheck",
         image: "/competitive_class.png",
         title: "Competitive Swimming",
         description:
-          "Specialized technical coaching and structured training for swimmers at different competitive levels, designed to improve performance.",
+          "Improve swimming technique, speed, and race performance through training planned for each swimmer’s level and goals.",
       },
       {
         icon: "Goal",
         image: "/adult_class.png",
         title: "Adult Swimming Lessons",
         description:
-          "Whatever your age or ability, build confidence in the water and develop swimming skills through structured instruction.",
+          "Learn to swim or improve your skills with clear, step-by-step lessons. We welcome adults of all ages and levels.",
       },
       {
         icon: "PictureInPicture",
         image: "/old_class.png",
         title: "Aqua Fitness",
         description:
-          "No swimming experience required. Enjoy low-impact aquatic exercise set to upbeat music while improving fitness and mobility.",
+          "Enjoy gentle exercise in the water with upbeat music. Improve your fitness and move more easily. No swimming experience is needed.",
       },
     ],
   },
   services: {
     eyebrow: "Teaching Advantages",
-    title: "A Better Way to Learn and Improve",
+    title: "How We Teach",
     description:
       "Systematic programs, expert coaches, small-group instruction, and multilingual support help every swimmer learn clearly and progress with confidence.",
     items: [
       {
-        title: "Systematic Teaching Framework",
+        title: "Step-by-Step Learning",
         description:
-          "Clear learning paths match each swimmer's level and goals, building skills step by step from water confidence to advanced strokes.",
+          "We plan lessons based on each swimmer’s level and goals. From getting comfortable in the water to learning swim strokes, we help students improve one step at a time.",
       },
       {
-        title: "Competition-Experienced Coaching Team",
+        title: "Experienced Coaches",
         description:
-          "Our coaches bring professional training and competitive experience to every lesson, with precise demonstrations, observation, and technique correction.",
+          "Our coaches have training and experience in competitive swimming. They show students how to swim correctly and give clear feedback to help them improve.",
       },
       {
-        title: "Small-Group Instruction",
+        title: "Small Classes",
         description:
-          "Limited class sizes create more practice time and individual attention, helping coaches closely follow each swimmer's progress.",
+          "Small classes give each student more time to practise and more attention from the coach. Coaches can follow each swimmer’s progress closely.",
       },
       {
-        title: "Multilingual Instruction",
+        title: "Lessons in Your Language",
         description:
-          "Most coaches support instruction in English, Mandarin, and Cantonese, making technique and safety guidance easier to understand.",
+          "Most of our coaches teach in English, Mandarin, and Cantonese. Students can learn swimming skills and safety rules in a language they understand.",
       },
     ],
   },

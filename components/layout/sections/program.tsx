@@ -13,9 +13,6 @@ export const ProgramSection = () => {
   return (
     <section id="program" className="py-24 sm:py-32">
       <div className="container">
-        <h2 className="mb-2 text-center text-lg tracking-wider text-primary">
-          {t.program.eyebrow}
-        </h2>
         <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
           {t.program.title}
         </h2>
