@@ -19,9 +19,11 @@ export const BenefitsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             {t.benefits.title}
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            {t.benefits.description}
-          </p>
+          <div className="text-xl text-muted-foreground mb-8 space-y-4">
+            {t.benefits.description.split("\n\n").map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-4 w-full">

@@ -27,18 +27,18 @@ export const en = {
   hero: {
     badge: "New",
     badgeText: "New season courses are now available",
-    titleBefore: "Learn to swim",
-    titleAccent: "efficiently",
+    titleBefore: "About Us",
+    titleAccent: "",
     titleAfter: "",
     subtitle:
-      "From first water confidence to competitive development, Aquaturbo combines expert coaching, level-based programs, and safe training to help every swimmer move with confidence, efficiency, and joy.",
+      "Aquaturbo Swim Academy was founded in Vancouver in 2023 by Coach Luke Huang. Guided by a commitment to professional, efficient, safe, and enjoyable instruction, we help students develop their swimming skills and have successfully prepared many swimmers to join local competitive swim clubs.\n\nThrough quality instruction and a strong reputation, Aquaturbo expanded to a second location in Richmond in 2026.",
     getStarted: "Join Now",
     contact: "Contact Us",
     imageAlt: "dashboard",
   },
   aboutHero: {
-    kicker: "Our",
-    title: "Systematic Swim Training",
+    kicker: "",
+    title: "WINTER REGISTRATION NOW OPEN",
     tagline: "Learn Smarter, Progress Faster.",
   },
   sponsors: {
@@ -46,9 +46,9 @@ export const en = {
   },
   benefits: {
     eyebrow: "Professional Training",
-    title: "From Water Confidence to Lasting Progress",
+    title: "Our Teaching System",
     description:
-      "Progressive programs built around age, ability, and goals help every swimmer develop sound technique through safe, expert coaching.",
+      "The Aquaturbo Teaching System (ATS) was developed by Head Coach Luke Huang, drawing on years of competitive swimming and extensive teaching experience. With safety, efficiency, and a systematic approach at its core, ATS helps students develop swimming skills step by step.\n\nATS is implemented across all locations to ensure a consistent, high-quality learning experience.",
     items: [
       {
         icon: "Blocks",
@@ -78,33 +78,37 @@ export const en = {
   },
   program: {
     eyebrow: "Swimming Programs",
-    title: "Training for Every Stage",
+    title: "Our Programs",
     description:
       "Four focused programs designed around age, ability, and goals—from first water experiences to performance development.",
     items: [
       {
         icon: "TabletSmartphone",
-        title: "Kids’ Swim Discovery",
+        image: "/child_class.png",
+        title: "Kids Swimming Lessons",
         description:
-          "Play-based, progressive lessons build water confidence, breathing, floating, and foundational strokes in a safe and encouraging environment.",
+          "Build confidence in the water and develop swimming skills step by step in a safe, fun environment.",
       },
       {
         icon: "BadgeCheck",
-        title: "Competitive Performance",
+        image: "/competitive_class.png",
+        title: "Competitive Swimming",
         description:
-          "Structured coaching refines all four strokes, starts, turns, speed, and endurance to help experienced swimmers reach their next performance goal.",
+          "Specialized technical coaching and structured training for swimmers at different competitive levels, designed to improve performance.",
       },
       {
         icon: "Goal",
-        title: "Adult Swim Lessons",
+        image: "/adult_class.png",
+        title: "Adult Swimming Lessons",
         description:
-          "Personalized instruction supports water confidence, breathing, stroke correction, and fitness at a comfortable adult learning pace.",
+          "Whatever your age or ability, build confidence in the water and develop swimming skills through structured instruction.",
       },
       {
         icon: "PictureInPicture",
-        title: "Senior Aquatic Fitness",
+        image: "/old_class.png",
+        title: "Aqua Fitness",
         description:
-          "Low-impact aquatic movement uses water support to improve mobility, balance, and muscular endurance while keeping exercise safe and comfortable.",
+          "No swimming experience required. Enjoy low-impact aquatic exercise set to upbeat music while improving fitness and mobility.",
       },
     ],
   },
@@ -191,22 +195,20 @@ export const en = {
       "Aquaturbo brings together coaches with professional training and competitive experience. We focus on safety, sound technique, and each swimmer's learning pace, providing clear demonstrations, attentive observation, and timely feedback at every stage.",
   },
   campus: {
-    eyebrow: "Our Campus",
-    title: "A professional pool for confident progress",
+    eyebrow: "Campus",
+    title: "Our Locations",
     items: [
       {
         image: "/campus1.png",
-        imageAlt: "Aquaturbo Richmond campus pool",
-        title: "Richmond Campus",
-        description:
-          "Located in Richmond, our campus offers a bright, clean indoor pool environment for level-based training.",
+        imageAlt: "Aquaturbo Vancouver Shaughnessy location",
+        title: "Vancouver Shaughnessy",
+        description: "",
       },
       {
-        image: "/hero-image.webp",
-        imageAlt: "Coach guiding a swimmer beside the pool",
-        title: "Focused Teaching Space",
-        description:
-          "From water confidence to stroke refinement, coaches provide clear demonstrations and timely guidance in every session.",
+        image: "/campus2.jpg",
+        imageAlt: "Aquaturbo Richmond Lansdowne location",
+        title: "Richmond Lansdowne",
+        description: "Unit 120, 8280 Lansdowne Rd",
       },
     ],
   },
@@ -271,7 +273,7 @@ export const en = {
   },
   contact: {
     eyebrow: "Contact",
-    title: "Connect With Us",
+    title: "Contact Us",
     description:
       "Welcome to contact us, We will reply as soon as possible.",
     findUs: "Find us",
@@ -280,9 +282,9 @@ export const en = {
     phone: "+1 604-278-0779",
     mailUs: "Mail us",
     email: "atlansdowne@gmail.com",
-    visitUs: "Visit us",
-    hoursDay: "Monday - Friday",
-    hoursTime: "8AM - 4PM",
+    visitUs: "Business Hours",
+    hoursWeekdays: "Monday–Friday: 15:00–20:30",
+    hoursWeekend: "Saturday–Sunday: 09:00–18:30",
     whatsappQrAlt: "WhatsApp QR code",
     wechatQrAlt: "WeChat QR code",
     firstName: "First Name",
