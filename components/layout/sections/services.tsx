@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/components/layout/language-provider";
 
 export const ServicesSection = () => {
@@ -12,16 +8,16 @@ export const ServicesSection = () => {
 
   return (
     <section id="services" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
+      {/* <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         {t.services.eyebrow}
-      </h2>
+      </h2> */}
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
         {t.services.title}
       </h2>
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+      {/* <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         {t.services.description}
-      </h3>
+      </h3> */}
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
         {t.services.items.map(({ title, description }) => (

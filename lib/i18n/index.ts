@@ -4,7 +4,7 @@ import { zhTW } from "./zh-TW";
 export type Locale = "zh-TW" | "en";
 
 export const locales: Locale[] = ["zh-TW", "en"];
-export const defaultLocale: Locale = "zh-TW";
+export const defaultLocale: Locale = "en";
 export const LOCALE_STORAGE_KEY = "aquaturbo-locale";
 
 export const dictionaries: Record<Locale, Dictionary> = {

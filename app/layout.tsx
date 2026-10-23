@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { LanguageProvider } from "@/components/layout/language-provider";
+import { defaultLocale, htmlLang } from "@/lib/i18n";
 
 const inter = Inter({ subsets: ["latin"] });
 const notoSansTC = Noto_Sans_TC({
@@ -23,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant" suppressHydrationWarning>
+    <html lang={htmlLang(defaultLocale)} suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background",

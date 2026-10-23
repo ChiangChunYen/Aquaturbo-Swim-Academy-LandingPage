@@ -9,11 +9,11 @@ export const CampusSection = () => {
   return (
     <section id="campus" className="w-full py-24 sm:py-32">
       <div className="container">
-        {t.campus.eyebrow ? (
+        {/* {t.campus.eyebrow ? (
           <h2 className="mb-2 text-center text-lg tracking-wider text-primary">
             {t.campus.eyebrow}
           </h2>
-        ) : null}
+        ) : null} */}
         <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
           {t.campus.title}
         </h2>

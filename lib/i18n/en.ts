@@ -46,7 +46,7 @@ export const en = {
   },
   benefits: {
     eyebrow: "Professional Training",
-    title: "Teaching System",
+    title: "ATS Teaching System",
     description:
       "Head Coach Luke Huang developed the Aquaturbo Teaching System (ATS) using his years of experience in competitive swimming and teaching.\n\nATS gives swimmers a clear, step-by-step way to learn, with a focus on safety, proper technique, and steady progress.\n\nWe use ATS at all our locations to provide the same high standard of teaching.",
     items: [
@@ -114,7 +114,7 @@ export const en = {
   },
   services: {
     eyebrow: "Teaching Advantages",
-    title: "How We Teach",
+    title: "Teaching Advantages",
     description:
       "Systematic programs, expert coaches, small-group instruction, and multilingual support help every swimmer learn clearly and progress with confidence.",
     items: [
@@ -274,8 +274,7 @@ export const en = {
   contact: {
     eyebrow: "Contact",
     title: "Contact Us",
-    description:
-      "Welcome to contact us, We will reply as soon as possible.",
+    description: "Welcome to contact us, We will reply as soon as possible.",
     findUs: "Find us",
     address: "Unit120-8280 Lansdowne rd, Richmond, BC",
     callUs: "Call us",
