@@ -18,9 +18,9 @@ export const zhTW = {
   nav: {
     brand: "Aquaturbo",
     routes: [
-      { href: "#about", label: "關於我們" },
+      { href: "#hero", label: "關於我們" },
       { href: "#program", label: "課程" },
-      { href: "#team", label: "團隊" },
+      { href: "#services", label: "教學特色" },
       { href: "#campus", label: "校區" },
       { href: "#contact", label: "聯絡" },
     ],
@@ -35,7 +35,7 @@ export const zhTW = {
     subtitle:
       "Aquaturbo Swim Academy 由 Luke Huang 教練於 2023 年在溫哥華創立，秉持專業、高效、安全、有趣的教學理念，幫助學員掌握游泳技能，並成功培養多位學員進入當地競技游泳俱樂部。\n\n憑藉優質教學與良好口碑，於 2026 年拓展第二家Richmond 分校。",
     getStarted: "立即參加",
-    contact: "聯繫我們",
+    contact: "立即報名",
     imageAlt: "儀表板",
   },
   aboutHero: {
@@ -55,12 +55,14 @@ export const zhTW = {
       {
         icon: "Blocks",
         title: "安全水感建立",
-        description: "從呼吸、漂浮與水中平衡開始，建立安心下水與持續學習的基礎。",
+        description:
+          "從呼吸、漂浮與水中平衡開始，建立安心下水與持續學習的基礎。",
       },
       {
         icon: "LineChart",
         title: "分齡分級教學",
-        description: "依年齡與能力安排合適班級，讓每次練習都符合學員的學習節奏。",
+        description:
+          "依年齡與能力安排合適班級，讓每次練習都符合學員的學習節奏。",
       },
       {
         icon: "Wallet",
@@ -84,25 +86,29 @@ export const zhTW = {
         icon: "TabletSmartphone",
         image: "/child_class.png",
         title: "兒童游泳課程",
-        description: "在安全、有趣的環境中建立水中自信，循序漸進地掌握專業游泳技巧。",
+        description:
+          "在安全、有趣的環境中建立水中自信，循序漸進地掌握專業游泳技巧。",
       },
       {
         icon: "BadgeCheck",
         image: "/competitive_class.png",
         title: "競技游泳訓練",
-        description: "針對不同競技程度的選手，提供專項技術指導與系統化訓練，提升競技表現。",
+        description:
+          "針對不同競技程度的選手，提供專項技術指導與系統化訓練，提升競技表現。",
       },
       {
         icon: "Goal",
         image: "/adult_class.png",
         title: "成人游泳課程",
-        description: "不論年齡與程度，透過系統化教學，輕鬆建立水中自信並掌握游泳技能。",
+        description:
+          "不論年齡與程度，透過系統化教學，輕鬆建立水中自信並掌握游泳技能。",
       },
       {
         icon: "PictureInPicture",
         image: "/old_class.png",
         title: "水中體適能",
-        description: "無須游泳基礎，跟隨輕快音樂享受低衝擊水中運動，提升體能與身體靈活度。",
+        description:
+          "無須游泳基礎，跟隨輕快音樂享受低衝擊水中運動，提升體能與身體靈活度。",
       },
     ],
   },
@@ -148,8 +154,7 @@ export const zhTW = {
       {
         name: "Sophia Collins",
         userName: "資安分析師",
-        comment:
-          "版面乾淨，區塊也好調整。比起從零開始，建置時間少非常多。",
+        comment: "版面乾淨，區塊也好調整。比起從零開始，建置時間少非常多。",
         rating: 4.8,
       },
       {
@@ -162,22 +167,19 @@ export const zhTW = {
       {
         name: "Ethan Parker",
         userName: "資料科學家",
-        comment:
-          "元件結構很好懂。當天就能換成自己的文案，推出第一版。",
+        comment: "元件結構很好懂。當天就能換成自己的文案，推出第一版。",
         rating: 5.0,
       },
       {
         name: "Ava Mitchell",
         userName: "IT 專案經理",
-        comment:
-          "利害關係人一看就懂。我們直接拿它當正式產品網站的工作原型。",
+        comment: "利害關係人一看就懂。我們直接拿它當正式產品網站的工作原型。",
         rating: 5.0,
       },
       {
         name: "Isabella Reed",
         userName: "DevOps 工程師",
-        comment:
-          "部署順暢，後續也好維護。很適合當行銷網站的起點。",
+        comment: "部署順暢，後續也好維護。很適合當行銷網站的起點。",
         rating: 4.9,
       },
     ],

@@ -7,27 +7,32 @@ export const ServicesSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="services" className="container py-24 sm:py-32">
+    <section
+      id="services"
+      className="container max-w-6xl py-16 text-left sm:py-24"
+    >
       {/* <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         {t.services.eyebrow}
       </h2> */}
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
+      <h2 className="mb-8 text-2xl font-bold tracking-tight sm:mb-10 sm:text-xl">
         {t.services.title}
       </h2>
       {/* <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         {t.services.description}
       </h3> */}
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {t.services.items.map(({ title, description }) => (
           <Card
             key={title}
             className="bg-muted/60 dark:bg-card h-full relative"
           >
             <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <p className="text-sm text-muted-foreground">{description}</p>
+              <CardTitle className="text-xl leading-snug">{title}</CardTitle>
+              <p className="text-base leading-relaxed text-muted-foreground">
+                {description}
+              </p>
             </CardHeader>
           </Card>
         ))}

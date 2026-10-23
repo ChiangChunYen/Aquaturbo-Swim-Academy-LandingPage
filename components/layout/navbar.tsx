@@ -4,12 +4,10 @@ import React from "react";
 import {
   Sheet,
   SheetContent,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
-import { Separator } from "../ui/separator";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -42,7 +40,8 @@ export const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <div className="flex items-center lg:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
+          <ToggleLanguage inverted />
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Menu
@@ -74,7 +73,7 @@ export const Navbar = () => {
                 </SheetHeader>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col justify-between bg-card p-6">
+              <div className="flex min-h-0 flex-1 flex-col bg-card p-6">
                 <div className="flex flex-col gap-2">
                   {t.nav.routes.map(({ href, label }) => (
                     <Button
@@ -88,11 +87,6 @@ export const Navbar = () => {
                     </Button>
                   ))}
                 </div>
-
-                <SheetFooter className="flex-col items-start justify-start sm:flex-col">
-                  <Separator className="mb-2" />
-                  <ToggleLanguage />
-                </SheetFooter>
               </div>
             </SheetContent>
           </Sheet>

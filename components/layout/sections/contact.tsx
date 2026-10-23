@@ -8,15 +8,18 @@ export const ContactSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="container py-24 sm:py-32">
-      <div className="mx-auto max-w-5xl">
-        <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-10">
+    <section
+      id="contact"
+      className="container max-w-6xl py-16 text-left sm:py-24"
+    >
+      <div>
+        <div>
+          <div className="mb-8 sm:mb-10">
             {/* <h2 className="mb-2 text-lg tracking-wider text-primary">
               {t.contact.eyebrow}
             </h2> */}
 
-            <h2 className="text-3xl font-bold md:text-4xl">
+            <h2 className="text-2xl font-bold tracking-tight sm:text-xl">
               {t.contact.title}
             </h2>
           </div>
@@ -25,8 +28,8 @@ export const ContactSection = () => {
           </p> */}
         </div>
 
-        <div className="grid gap-12 md:grid-cols-[1.1fr_0.9fr] md:gap-10 lg:gap-16">
-          <div className="grid gap-8 text-left sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
+          <div className="grid grid-cols-1 gap-8 leading-relaxed sm:grid-cols-2">
             <div>
               <div className="mb-1 flex gap-2">
                 <Building2 />
@@ -64,8 +67,8 @@ export const ContactSection = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-4 sm:gap-6">
-            <div className="flex flex-col items-center gap-3 text-center">
-              <div className="flex items-center justify-center gap-2 font-bold">
+            <div className="flex min-w-0 flex-col items-start gap-3 text-left">
+              <div className="flex items-center gap-2 font-bold">
                 <Image
                   src="/icon-whatsapp.png"
                   alt=""
@@ -80,13 +83,13 @@ export const ContactSection = () => {
                 alt={t.contact.whatsappQrAlt}
                 width={523}
                 height={517}
-                sizes="(min-width: 1024px) 208px, (min-width: 768px) 16vw, 40vw"
+                sizes="(min-width: 640px) 208px, 40vw"
                 className="aspect-square w-full max-w-52 bg-white object-contain p-2"
               />
             </div>
 
-            <div className="flex flex-col items-center gap-3 text-center">
-              <div className="flex items-center justify-center gap-2 font-bold">
+            <div className="flex min-w-0 flex-col items-start gap-3 text-left">
+              <div className="flex items-center gap-2 font-bold">
                 <Image
                   src="/icon-wechat.png"
                   alt=""
@@ -101,7 +104,7 @@ export const ContactSection = () => {
                 alt={t.contact.wechatQrAlt}
                 width={640}
                 height={630}
-                sizes="(min-width: 1024px) 208px, (min-width: 768px) 16vw, 40vw"
+                sizes="(min-width: 640px) 208px, 40vw"
                 className="aspect-square w-full max-w-52 bg-white object-contain p-2"
               />
             </div>
