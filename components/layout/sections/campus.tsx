@@ -14,9 +14,9 @@ export const CampusSection = () => {
             {t.campus.eyebrow}
           </h2>
         ) : null}
-        {/* <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
+        <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
           {t.campus.title}
-        </h2> */}
+        </h2>
 
         <div className="grid gap-12 md:grid-cols-2 lg:gap-8">
           {t.campus.items.map((item) => (

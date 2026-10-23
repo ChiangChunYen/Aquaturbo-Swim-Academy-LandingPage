@@ -16,9 +16,9 @@ export const ContactSection = () => {
               {t.contact.eyebrow}
             </h2>
 
-            {/* <h2 className="text-3xl font-bold md:text-4xl">
+            <h2 className="text-3xl font-bold md:text-4xl">
               {t.contact.title}
-            </h2> */}
+            </h2>
           </div>
           {/* <p className="mb-10 text-muted-foreground">
             {t.contact.description}
