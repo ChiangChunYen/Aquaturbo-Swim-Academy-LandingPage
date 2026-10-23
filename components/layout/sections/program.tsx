@@ -38,7 +38,7 @@ export const ProgramSection = () => {
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-muted">
                 <Image
-                  src="/hero-image.webp"
+                  src={item.image}
                   alt={item.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

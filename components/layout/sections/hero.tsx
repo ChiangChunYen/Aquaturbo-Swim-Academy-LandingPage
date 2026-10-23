@@ -23,16 +23,20 @@ export const HeroSection = () => {
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
               {t.hero.titleBefore}
-              <span className="text-primary px-2">
-                {t.hero.titleAccent}
-              </span>
+              {t.hero.titleAccent ? (
+                <span className="text-primary px-2">
+                  {t.hero.titleAccent}
+                </span>
+              ) : null}
               {t.hero.titleAfter}
             </h1>
           </div>
 
-          <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {t.hero.subtitle}
-          </p>
+          <div className="max-w-screen-sm mx-auto space-y-4 text-xl text-muted-foreground">
+            {t.hero.subtitle.split("\n\n").map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button asChild className="w-5/6 md:w-1/4 font-bold group/arrow">

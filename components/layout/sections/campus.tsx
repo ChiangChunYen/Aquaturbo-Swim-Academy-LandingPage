@@ -9,9 +9,11 @@ export const CampusSection = () => {
   return (
     <section id="campus" className="w-full py-24 sm:py-32">
       <div className="container">
-        <h2 className="mb-2 text-center text-lg tracking-wider text-primary">
-          {t.campus.eyebrow}
-        </h2>
+        {t.campus.eyebrow ? (
+          <h2 className="mb-2 text-center text-lg tracking-wider text-primary">
+            {t.campus.eyebrow}
+          </h2>
+        ) : null}
         <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
           {t.campus.title}
         </h2>
@@ -32,9 +34,11 @@ export const CampusSection = () => {
                 />
               </div>
               <h3 className="mb-2 text-2xl font-semibold">{item.title}</h3>
-              <p className="leading-relaxed text-muted-foreground">
-                {item.description}
-              </p>
+              {item.description ? (
+                <p className="leading-relaxed text-muted-foreground">
+                  {item.description}
+                </p>
+              ) : null}
             </article>
           ))}
         </div>

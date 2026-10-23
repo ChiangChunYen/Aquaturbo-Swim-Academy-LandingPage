@@ -29,18 +29,18 @@ export const zhTW = {
   hero: {
     badge: "全新",
     badgeText: "新季度課程已推出",
-    titleBefore: "更",
-    titleAccent: "高效的",
-    titleAfter: "學會游泳",
+    titleBefore: "關於我們",
+    titleAccent: "",
+    titleAfter: "",
     subtitle:
-      "從初次親水到競技進階，Aquaturbo 以專業教練、分級課程與安全訓練，陪伴每位學員建立水中自信，游得更穩、更快、更自在。",
+      "Aquaturbo Swim Academy 由 Luke Huang 教練於 2023 年在溫哥華創立，秉持專業、高效、安全、有趣的教學理念，幫助學員掌握游泳技能，並成功培養多位學員進入當地競技游泳俱樂部。\n\n憑藉優質教學與良好口碑，於 2026 年拓展第二家Richmond 分校。",
     getStarted: "立即參加",
     contact: "聯繫我們",
     imageAlt: "儀表板",
   },
   aboutHero: {
     kicker: "",
-    title: "我們的系統化教學",
+    title: "WINTER REGISTRATION NOW OPEN",
     tagline: "有效地學，進步得更快",
   },
   sponsors: {
@@ -48,9 +48,9 @@ export const zhTW = {
   },
   benefits: {
     eyebrow: "專業培訓",
-    title: "從水感建立到自信進階",
+    title: "ATS 教學體系",
     description:
-      "依照年齡、能力與目標設計循序課程，讓每位學員在安全、專業的指導下掌握正確泳姿。",
+      "Aquaturbo Teaching System（ATS） 由總教練 Luke Huang 研發，融合多年競技游泳背景與豐富教學經驗，以安全、高效、系統化為核心，幫助學員循序漸進地掌握專業游泳技能。\n\nATS 全面應用於各校區，確保一致且高品質的教學體驗。",
     items: [
       {
         icon: "Blocks",
@@ -76,29 +76,33 @@ export const zhTW = {
   },
   program: {
     eyebrow: "游泳課程",
-    title: "找到適合你的訓練節奏",
+    title: "課程介紹",
     description:
       "四大課程依年齡、能力與目標設計，從興趣啟蒙到專項提升，讓每位學員都能穩定進步。",
     items: [
       {
         icon: "TabletSmartphone",
-        title: "兒童興趣班",
-        description: "以遊戲與循序練習培養水感、呼吸、漂浮與基礎泳姿，讓孩子安全享受每一次下水。",
+        image: "/child_class.png",
+        title: "兒童游泳課程",
+        description: "在安全、有趣的環境中建立水中自信，循序漸進地掌握專業游泳技巧。",
       },
       {
         icon: "BadgeCheck",
-        title: "競技提升班",
-        description: "針對已有基礎的學員強化四式技術、出發轉身、速度與耐力，透過系統訓練突破個人表現。",
+        image: "/competitive_class.png",
+        title: "競技游泳訓練",
+        description: "針對不同競技程度的選手，提供專項技術指導與系統化訓練，提升競技表現。",
       },
       {
         icon: "Goal",
-        title: "成人游泳課",
-        description: "從克服怕水、改善換氣到修正泳姿，依個人程度與節奏學習，提升體能並自在享受游泳。",
+        image: "/adult_class.png",
+        title: "成人游泳課程",
+        description: "不論年齡與程度，透過系統化教學，輕鬆建立水中自信並掌握游泳技能。",
       },
       {
         icon: "PictureInPicture",
-        title: "銀髮族水中體適能",
-        description: "運用水的浮力進行低衝擊活動，協助提升關節靈活度、平衡感與肌耐力，安全維持身體活力。",
+        image: "/old_class.png",
+        title: "水中體適能",
+        description: "無須游泳基礎，跟隨輕快音樂享受低衝擊水中運動，提升體能與身體靈活度。",
       },
     ],
   },
@@ -185,22 +189,20 @@ export const zhTW = {
       "Aquaturbo 由具備專業訓練與競技經驗的教練共同授課。我們重視安全、正確技術與個別學習節奏，透過清楚示範、細緻觀察與即時調整，陪伴每位學員建立水中自信並持續進步。",
   },
   campus: {
-    eyebrow: "我們的校區",
-    title: "在專業泳池裡，安心開始每一次練習",
+    eyebrow: "校區",
+    title: "我們的校區",
     items: [
       {
         image: "/campus1.png",
-        imageAlt: "Aquaturbo Richmond 校區泳池",
-        title: "Richmond 校區",
-        description:
-          "校區位於 Richmond，提供明亮、整潔且適合分級訓練的室內泳池環境。",
+        imageAlt: "Aquaturbo Vancouver Shaughnessy 校區",
+        title: "Vancouver Shaughnessy",
+        description: "",
       },
       {
-        image: "/hero-image.webp",
-        imageAlt: "教練在泳池旁指導學員",
-        title: "清楚、專注的教學空間",
-        description:
-          "從親水練習到技術修正，教練在每一次訓練中提供清楚示範與即時指導。",
+        image: "/campus2.jpg",
+        imageAlt: "Aquaturbo Richmond Lansdowne 校區",
+        title: "Richmond Lansdowne",
+        description: "Unit 120, 8280 Lansdowne Rd",
       },
     ],
   },
@@ -263,7 +265,7 @@ export const zhTW = {
   },
   contact: {
     eyebrow: "聯絡",
-    title: "與我們聯繫",
+    title: "聯絡我們",
     description: "歡迎聯繫我們，我們將給予最高的服務",
     findUs: "來訪地址",
     address: "Unit120-8280 Lansdowne rd, Richmond, BC",
@@ -272,8 +274,8 @@ export const zhTW = {
     mailUs: "來信",
     email: "atlansdowne@gmail.com",
     visitUs: "營業時間",
-    hoursDay: "週一至週五",
-    hoursTime: "上午 8 時至下午 4 時",
+    hoursWeekdays: "週一至週五：15:00–20:30",
+    hoursWeekend: "週六至週日：09:00–18:30",
     whatsappQrAlt: "WhatsApp 二維碼",
     wechatQrAlt: "WeChat 二維碼",
     firstName: "名字",

@@ -57,8 +57,8 @@ export const ContactSection = () => {
                 <div className="font-bold">{t.contact.visitUs}</div>
               </div>
               <div>
-                <div>{t.contact.hoursDay}</div>
-                <div>{t.contact.hoursTime}</div>
+                <div>{t.contact.hoursWeekdays}</div>
+                <div>{t.contact.hoursWeekend}</div>
               </div>
             </div>
           </div>

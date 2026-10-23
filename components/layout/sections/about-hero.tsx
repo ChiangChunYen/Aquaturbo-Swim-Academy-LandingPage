@@ -32,7 +32,7 @@ export const AboutHeroSection = () => {
       />
 
       <div
-        className="mx-auto w-full max-w-[1180px] border border-white/70 py-8 motion-safe:animate-in motion-safe:fade-in motion-safe:duration-700 sm:py-10 lg:py-12"
+        className="mx-auto w-full max-w-[1180px] py-8 motion-safe:animate-in motion-safe:fade-in motion-safe:duration-700 sm:py-10 lg:py-12"
       >
         {t.aboutHero.kicker ? (
           <p
