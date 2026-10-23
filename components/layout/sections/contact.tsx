@@ -11,18 +11,18 @@ export const ContactSection = () => {
     <section id="contact" className="container py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-4">
+          <div className="mb-10">
             <h2 className="mb-2 text-lg tracking-wider text-primary">
               {t.contact.eyebrow}
             </h2>
 
-            <h2 className="text-3xl font-bold md:text-4xl">
+            {/* <h2 className="text-3xl font-bold md:text-4xl">
               {t.contact.title}
-            </h2>
+            </h2> */}
           </div>
-          <p className="mb-10 text-muted-foreground">
+          {/* <p className="mb-10 text-muted-foreground">
             {t.contact.description}
-          </p>
+          </p> */}
         </div>
 
         <div className="grid gap-12 md:grid-cols-[1.1fr_0.9fr] md:gap-10 lg:gap-16">

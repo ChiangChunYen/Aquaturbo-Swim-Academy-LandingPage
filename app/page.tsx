@@ -4,7 +4,7 @@ import { ProgramSection } from "@/components/layout/sections/program";
 import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
 import { ServicesSection } from "@/components/layout/sections/services";
-import { TeamSection } from "@/components/layout/sections/team";
+// import { TeamSection } from "@/components/layout/sections/team";
 import { CampusSection } from "@/components/layout/sections/campus";
 import { AboutHeroSection } from "@/components/layout/sections/about-hero";
 
@@ -42,9 +42,9 @@ export default function Home() {
       <AboutHeroSection />
       <HeroSection />
       <BenefitsSection />
-      <ServicesSection />
       <ProgramSection />
-      <TeamSection />
+      <ServicesSection />
+      {/* <TeamSection /> */}
       <CampusSection />
       <ContactSection />
       <FooterSection />

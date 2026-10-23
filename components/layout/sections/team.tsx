@@ -12,7 +12,7 @@ export const TeamSection = () => {
           <p className="mb-2 text-lg tracking-wider text-primary">
             {t.team.eyebrow}
           </p>
-          <h2 className="text-3xl font-bold md:text-4xl">{t.team.title}</h2>
+          {/* <h2 className="text-3xl font-bold md:text-4xl">{t.team.title}</h2> */}
         </div>
         <p className="text-xl leading-relaxed text-muted-foreground">
           {t.team.description}

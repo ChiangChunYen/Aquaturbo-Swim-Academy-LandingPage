@@ -1,7 +1,9 @@
 "use client";
 
 import { useLanguage } from "@/components/layout/language-provider";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const AboutHeroSection = () => {
   const { t } = useLanguage();
@@ -58,6 +60,16 @@ export const AboutHeroSection = () => {
         >
           {t.aboutHero.tagline}
         </p>
+
+        <div className="mt-8 flex justify-center sm:mt-10">
+          <Button
+            asChild
+            variant="secondary"
+            className="w-5/6 font-bold sm:w-40"
+          >
+            <Link href="#contact">{t.hero.contact}</Link>
+          </Button>
+        </div>
       </div>
     </section>
   );
