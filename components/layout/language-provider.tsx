@@ -35,10 +35,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       return;
     }
 
-    const browser = navigator.language.toLowerCase();
-    const next: Locale = browser.startsWith("en") ? "en" : defaultLocale;
-    setLocaleState(next);
-    persistLocale(next);
+    persistLocale(defaultLocale);
   }, []);
 
   const setLocale = React.useCallback((next: Locale) => {

@@ -12,9 +12,9 @@ export const ContactSection = () => {
       <div className="mx-auto max-w-5xl">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-10">
-            <h2 className="mb-2 text-lg tracking-wider text-primary">
+            {/* <h2 className="mb-2 text-lg tracking-wider text-primary">
               {t.contact.eyebrow}
-            </h2>
+            </h2> */}
 
             <h2 className="text-3xl font-bold md:text-4xl">
               {t.contact.title}
