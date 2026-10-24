@@ -54,7 +54,7 @@ export const AboutHeroSection = () => {
         <p className="pt-9 text-left text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold uppercase leading-[1.2] tracking-[0.025em] text-white drop-shadow-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
           {t.aboutHero.tagline1}
         </p>
-        <p className="pt-7 text-left text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold uppercase leading-[1.2] tracking-[0.025em] text-white drop-shadow-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700 sm:pt-9">
+        <p className="pt-2 text-left text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold uppercase leading-[1.2] tracking-[0.025em] text-white drop-shadow-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
           {t.aboutHero.tagline2}
         </p>
 
