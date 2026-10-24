@@ -12,7 +12,7 @@ export const AboutHeroSection = () => {
     <section
       id="about"
       aria-labelledby="about-hero-title"
-      className="relative isolate flex min-h-[calc(100dvh-4rem)] w-full items-center overflow-hidden bg-surface-inverse py-16 sm:py-24"
+      className="relative isolate flex min-h-[calc(100dvh-4rem)] w-full items-start overflow-hidden bg-surface-inverse pb-12 pt-[clamp(3rem,17svh,10rem)] sm:items-center sm:py-24"
     >
       <div
         aria-hidden="true"
@@ -43,14 +43,19 @@ export const AboutHeroSection = () => {
         <div className="text-left text-white motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
           <h1
             id="about-hero-title"
-            className="text-[clamp(1.875rem,4.5vw,3.75rem)] font-black uppercase leading-[1.1] tracking-[0.025em]"
+            className="text-[clamp(2rem,10vw,2.75rem)] font-black uppercase leading-[1.15] tracking-[0.025em] sm:text-[clamp(3rem,6vw,5.5rem)] sm:leading-[1.05]"
           >
-            {t.aboutHero.title}
+            <span className="block">{t.aboutHero.title1}</span>
+            <span className="block">{t.aboutHero.title2}</span>
+            <span className="block">{t.aboutHero.title3}</span>
           </h1>
         </div>
 
+        <p className="pt-9 text-left text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold uppercase leading-[1.2] tracking-[0.025em] text-white drop-shadow-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700">
+          {t.aboutHero.tagline1}
+        </p>
         <p className="pt-7 text-left text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold uppercase leading-[1.2] tracking-[0.025em] text-white drop-shadow-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-4 motion-safe:duration-700 sm:pt-9">
-          {t.aboutHero.tagline}
+          {t.aboutHero.tagline2}
         </p>
 
         <div className="mt-8 flex justify-start sm:mt-10">

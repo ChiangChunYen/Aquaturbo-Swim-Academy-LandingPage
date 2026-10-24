@@ -83,7 +83,7 @@ export const Navbar = () => {
                       variant="ghost"
                       className="justify-start text-base"
                     >
-                      <Link href={href}>{label}</Link>
+                      <Link href={`/${href}`}>{label}</Link>
                     </Button>
                   ))}
                 </div>
@@ -98,7 +98,7 @@ export const Navbar = () => {
               {t.nav.routes.map(({ href, label }) => (
                 <NavigationMenuLink key={href} asChild>
                   <Link
-                    href={href}
+                    href={`/${href}`}
                     className="px-2 text-base text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
                   >
                     {label}
