@@ -33,7 +33,7 @@ export const ContactSection = () => {
             <div>
               <div className="mb-1 flex gap-2">
                 <Building2 />
-                <div className="font-bold">{t.contact.findUs}</div>
+                <div className="font-bold">{t.contact.addressTitle}</div>
               </div>
               <div>{t.contact.address}</div>
             </div>

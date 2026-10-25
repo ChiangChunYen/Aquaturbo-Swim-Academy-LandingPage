@@ -270,9 +270,10 @@ export const zhTW = {
   },
   contact: {
     eyebrow: "聯絡",
-    title: "聯絡我們",
+    title: "聯絡",
     description: "歡迎聯繫我們，我們將給予最高的服務",
     findUs: "來訪地址",
+    addressTitle: "地址",
     address: "Unit120-8280 Lansdowne rd, Richmond, BC",
     callUs: "致電",
     phone: "+1 604-278-0779",
